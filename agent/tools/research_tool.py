@@ -4,7 +4,7 @@ from tools.google_docs_tool import GoogleDocsTool
 
 class ResearchTool:
     def __init__(self):
-        self.serpapi_key = os.getenv("SERPAPI_KEY","8ce813b5244545f4ae13ba3d74e331c6e4f639eea67f16358deff6035c7a8c65")
+        self.serpapi_key = os.getenv("SERPAPI_KEY","xxxxx")
         if not self.serpapi_key:
             raise ValueError("SerpAPI key not found. Set the SERPAPI_KEY environment variable.")
         self.docs = GoogleDocsTool()
