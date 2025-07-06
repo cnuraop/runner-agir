@@ -1,0 +1,10 @@
+agent_name: life_automation_agent
+entrypoint: agents/life_automation_agent.py
+description: Reads a JSON TODO list and completes tasks using Gmail, Google Docs, and WordPress with confirmation and logs.
+loop: true
+loop_interval: 300  # 30 minutes
+tools:
+  - tools.gmail_tool.GmailTool
+  - tools.google_docs_tool.GoogleDocsTool
+  - tools.wordpress_tool.WordPressTool
+  - tools.research_tool.ResearchTool

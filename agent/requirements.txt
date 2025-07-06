@@ -238,3 +238,8 @@ websockets==13.1
     # via web3
 yarl==1.18.3
     # via aiohttp
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+requests
+

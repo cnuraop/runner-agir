@@ -13,3 +13,8 @@ wheels/
 .env
 
 node_modules
+
+.env
+credentials.json
+*.key
+*.pem

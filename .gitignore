@@ -7,8 +7,8 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
-
+venv/
+agent/venv
 # Secrets
 .env
 
@@ -25,3 +25,9 @@ rag-api-venv
 
 code/
 pkl/
+.env
+credentials.json
+*.key
+*.pem
+agent/token_docs.json
+agent/token_gmail.json
